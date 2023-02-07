@@ -7,7 +7,7 @@
 
 int main(int argc, char* argv[]) {
 
-    Game game("Flappy", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 1024, 640, SDL_WINDOW_SHOWN);
+    Game game("Flappy", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 640, 1024, SDL_WINDOW_SHOWN);
 
     while (game.getGameState() != GameState::EXIT) {
         SDL_Event event;
